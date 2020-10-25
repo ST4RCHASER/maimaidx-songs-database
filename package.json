@@ -1,0 +1,21 @@
+{
+  "name": "maimaidx-songs-database",
+  "version": "1.0.0",
+  "description": "An api maimaidx songs database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "maimaidx",
+    "maimai"
+  ],
+  "author": "_StarChaser",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-schedule": "^1.3.2",
+    "underscore": "^1.11.0"
+  },
+  "type": "module"
+}

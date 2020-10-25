@@ -1,0 +1,39 @@
+{
+  "last_update": "25/10/2020",
+  "videos": [
+    {
+      "song_id": 19998,
+      "music": "https://www.youtube.com/watch?v=TlRv2CmIngw",
+      "chart": {
+        "remas": "https://www.youtube.com/watch?v=KJwhRj92asE",
+        "mas": "https://www.youtube.com/watch?v=7xRG4smb-_o",
+        "exp": "https://www.youtube.com/watch?v=gjdB4gyajJc",
+        "adv": "https://www.youtube.com/watch?v=bcvyyqLTeVw"
+      }
+    },
+    {
+      "song_id": 19999,
+      "music": "https://www.youtube.com/watch?v=VZ-bruJlAtA",
+      "chart": {
+        "mas": "https://www.youtube.com/watch?v=cqlQHSs4tik",
+        "exp": "https://www.youtube.com/watch?v=wV9b_fDDJbM"
+      }
+    },
+    {
+      "song_id": 19011,
+      "music": "https://www.youtube.com/watch?v=7UubKYqEy3s",
+      "chart": {
+        "dx_mas": "https://www.youtube.com/watch?v=Zhl-50NVNjI",
+        "mas": "https://www.youtube.com/watch?v=VUIMaPvUgFY"
+      }
+    },
+    {
+      "song_id": 19000,
+      "music": "https://www.youtube.com/watch?v=utXTSCC-Ddc",
+      "chart": {
+        "mas": "https://www.youtube.com/watch?v=bHO5UdAKCiw",
+        "exp": "https://www.youtube.com/watch?v=U_IYp_Kz3nk"
+      }
+    }
+  ]
+}
