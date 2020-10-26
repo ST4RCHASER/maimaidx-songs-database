@@ -10,7 +10,7 @@ router.get('/', async (_, res) => {
         success: true,
         code: 201,
         message: 'Welcome!',
-        github: 'https://github.com/ST4RCHASER/maimai-songs-database'
+        github: 'https://github.com/ST4RCHASER/maimaidx-songs-database'
     })
 });
 updater();
