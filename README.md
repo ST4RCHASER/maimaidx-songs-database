@@ -55,9 +55,9 @@ Available category you can use in category fillter
 | game,variety | ゲームバラエティ |
 | maimai | maimai original |
 ### Video database
-Feel free to help me add [video database (like chart music etc.)](https://github.com/ST4RCHASER/maimaidx-songs-database/blob/main/database/json/video.json) if you want to add you can make pull request thanks you <3
+Feel free to help me add [video database (like chart music etc.)](https://github.com/ST4RCHASER/maimaidx-songs-database/blob/main/database/json/video.json) if you want to add you can make pull request i will migrate it!
 Thanks for help me :3
 
-###icense
+###License
 ----
 [GNU AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
