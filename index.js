@@ -2,6 +2,7 @@ import cors from 'cors';
 import express from 'express';
 import { maimai } from './routes/index.js';
 const server = express();
+const PORT = process.env.PORT || 80;
 server.use(cors());
 server.use('/maimai', maimai);
 server.get('/', async (_, res) => {
@@ -19,8 +20,9 @@ server.all('*', (req, res) => {
         message: "route '/" + req.url.split('/').slice(-1).pop() + "' not found"
     });
 })
-server.listen(80, () => {
-    console.log('Server listen at port 80')
+server.listen(PORT, err => {
+    if(err) throw err;
+    console.log("%c Server running on " + PORT, "color: green");
 });
 
 export default server;
