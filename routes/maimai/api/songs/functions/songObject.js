@@ -5,22 +5,22 @@ export default function (title) {
     let song_jp, song_en, return_value;
     JPDatabase.forEach(item => {
         if (item.title === title) {
-            song_jp = item;
-            song_jp.jacket = 'https://maimai.sega.jp/storage/DX_jacket/'+song_jp.image_url;
+            song_jp = {... item};
+            song_jp.jacket = 'https://maimai.sega.jp/storage/DX_jacket/'+item.image_url;
             delete song_jp.image_url;
         }
     });
     ENDatabase.forEach(item => {
         if (item.title === title) {
-            song_en = item;
-            song_en.jacket = 'https://maimai.sega.com/storage/DX_jacket/'+song_en.image_url;
+            song_en = {... item};
+            song_en.jacket = 'https://maimai.sega.com/storage/DX_jacket/'+item.image_url;
             delete song_en.image_url;
         }
     });
     let video;
     VideoDatabase.videos.forEach(item => {
         if (item.song_id === parseInt(song_jp.id)) {
-            video = item;
+            video = {... item};
             delete video.song_id;
         }
     });
