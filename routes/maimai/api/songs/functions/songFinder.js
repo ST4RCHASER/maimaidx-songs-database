@@ -1,6 +1,6 @@
 import { JPDatabase, ENDatabase } from '../../../../../database/index.js';
 import _ from 'underscore';
-export default function(title,title_kana,artist,category,){
+export default function(title,title_kana,artist,category){
     let find_cat;
     switch (category) {
         case 'chunithm':

@@ -19,7 +19,7 @@ export default function (title) {
     });
     let video;
     VideoDatabase.videos.forEach(item => {
-        if (item.song_id === parseInt(song_jp.id)) {
+        if (item['song_id'] === song_jp['sort'] + "/" + song_jp['id']) {
             video = {... item};
             delete video.song_id;
         }
